@@ -1,0 +1,116 @@
+//Anotações.
+    *Variáveis podem começar co letra, $ ou _.
+    *Não podem começar co números.
+    *É possível usar letras ou números.
+    *É possível usar acentos e simbolos especiais.
+    *Não podem conter espaços.
+    *Não podem usar palavras reservadas.
+
+    *Maiósculas e minúsculas fazem diferença (Pascal case sensitive).
+    *Tente escolher nomes coerentes para as variáve is.
+
+    *Variáveis servem para guardar dados.Números    , float, nomes(strings),boolea      n. 
+
+    *Prompt sempre retorna uma string por mais que seja um núm  ero.
+    *Number.parseInt para converter uma string para número i        nteiro.
+    *Number.parseFloat para converter uma string par    a flo                   at.
+
+    *var n1     = 1545.5
+        15      45.5
+    *n1.toFixed(2)
+        '154    5.50'
+    *n1.toFi        xed(2).replace('.' , ',')
+        '1545,50'
+    
+            *n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+    'R$ 1.545,50'
+
+        *n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
+        'US$ 1.545,50'
+
+    *n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
+        € 1.545,50'
+
+
+    *typeof variável //Mostra o tipo de variável (numeber, string, boolean ...)
+ 
+ *Operadores
+  +  5+2==7   //Adição.
+  -  5-2==3   //Subtração.
+  *  5*2==10  //Multiplicação.
+  /  5/2==2,5 //Divisão.
+  %  5%2==1   //Resto da divisão.
+  ** 5**2==25 //Potência.
+
+*Ordem de precedência dos operadores aritméticos.
+    ()
+    **
+    */%
+    +-
+
+*Atribuição simples
+    var a = 5 + 3         == 8
+    var b = a % 5         == 3
+    var c = 5 * b**2      == 45
+    var d = 10 - a /2     == 6
+    var e = 6 * 2 / d     == 2
+    var f = b % e + 4 / e == 3
+
+*Exemplos
+    var n = 3   
+    n = n + 4   n +=4   ==7
+    n = n - 5   n -=5   ==2
+    n = n * 4   n *=4   ==8
+    n = n / 2   n /=2   ==4
+    n = n** 2   n**=2   ==16
+    n = n % 5   n %=5   ==1
+
+*Simbolos relacionais
+    >  maior
+    <  menor
+    >= maior ou igual
+    <= menor ou igual
+    = recebe
+    == igual
+    === idêntico
+    != diferente
+
+*Exemplos
+   5 > 2  true
+   7 < 4  false
+   8 >= 8 true
+   9 <= 7 false
+   5 == 5 true
+   4 != 4 false
+
+*Operadores lógicos
+    !  negação   (NÃO)
+    && conjunção (E)
+    || disjunção (OU)
+
+    *Ordem lógica
+        NÃO (!)
+        E   (&&)
+        OU  (||)
+
+*Ordem de operadores  
+    Aritméticos ()**/...
+    Relacionais <>>== da esquerda para a direita. 
+    Lógicos ! && ||
+
+*Operadores ternários
+    ?:
+    teste ? true : false
+    média >= 7.0 ? "Aprovado" : "Reprovado "
+
+    *Exemplos
+        var idade = 19
+        var r = idade > 18 ? "maior": "menor"
+        resultado "maior"
+
+*Array/Vetor/Variável Composta.
+    Um vetor é composto de elementos.
+    *Elementos.
+        Cada elemento é composto por seu valor e uma chave de identificação(key)
+
+*{Objeto}
